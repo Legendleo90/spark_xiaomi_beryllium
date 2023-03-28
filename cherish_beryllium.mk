@@ -6,8 +6,8 @@
 
 $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
-# Inherit some common evolution stuff.
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+# Inherit some common cherish stuff.
+$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
@@ -19,23 +19,23 @@ IS_PHONE := true
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_WIFI_EXT := true
 TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
-TARGET_BUILD_APERTURE_CAMERA := true
+TARGET_BUILD_APERTURE_CAMERA := false
 TARGET_BUILD_GRAPHENEOS_CAMERA := false
-TARGET_ENABLE_BLUR := false
+TARGET_ENABLE_BLUR := true
 TARGET_SUPPORTS_ALERT_SLIDER := false
 
 # Maintainer Flag
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.evolution.maintainer=Akshat
+    ro.cherish.maintainer=Akshat
 
 # Unofficial
-EVO_BUILD_MAINTAINER := Akshat
-EVO_BUILD_TYPE := UNOFFICIAL
+CHERISH_MAINTAINER := Akshat
+CHERISH_BUILD_TYPE := UNOFFICIAL
 BUILD_USERNAME := Akshat
-BUILD_HOSTNAME := Evolution
+BUILD_HOSTNAME := Cherish
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := evolution_beryllium
+PRODUCT_NAME := cherish_beryllium
 PRODUCT_DEVICE := beryllium
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := POCO F1
