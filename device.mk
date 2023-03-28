@@ -45,6 +45,9 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.2 \
     android.hardware.secure_element@1.2.vendor
 
+# Gcam Go
+GCamGOPrebuilt-V4 \
+
 # Treble
 PRODUCT_USE_VNDK_OVERRIDE := true
 
