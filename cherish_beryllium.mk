@@ -24,6 +24,9 @@ TARGET_BUILD_GRAPHENEOS_CAMERA := false
 TARGET_ENABLE_BLUR := true
 TARGET_SUPPORTS_ALERT_SLIDER := false
 
+# Gapps
+WITH_GMS := true
+
 # Maintainer Flag
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.cherish.maintainer=Akshat
