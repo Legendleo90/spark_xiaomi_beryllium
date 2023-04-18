@@ -26,10 +26,10 @@ TARGET_SUPPORTS_ALERT_SLIDER := false
 
 # Maintainer Flag
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.cherish.maintainer=Akshat
+    ro.cherish.maintainer=𝔸𝕂𝕊ℍ𝔸𝕋
 
 # Unofficial
-CHERISH_MAINTAINER := Akshat
+CHERISH_MAINTAINER := 𝔸𝕂𝕊ℍ𝔸𝕋
 CHERISH_BUILD_TYPE := UNOFFICIAL
 BUILD_USERNAME := Akshat
 BUILD_HOSTNAME := Cherish
