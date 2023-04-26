@@ -20,6 +20,9 @@ TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
 TARGET_BUILD_APERTURE_CAMERA := true
 TARGET_ENABLE_BLUR := false
 
+# Vanilla
+CHERISH_VANILLA := true
+
 # Maintainer Flag
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.cherish.maintainer=𝔸𝕂𝕊ℍ𝔸𝕋
