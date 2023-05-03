@@ -20,6 +20,10 @@ TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
 TARGET_BUILD_APERTURE_CAMERA := true
 TARGET_ENABLE_BLUR := false
 
+# Blur
+ro.surface_flinger.supports_background_blur=0
+ro.sf.blurs_are_expensive=0
+
 # Vanilla
 CHERISH_VANILLA := true
 
